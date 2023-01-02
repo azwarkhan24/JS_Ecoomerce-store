@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+  overflow-x: hidden;
+  
+}
+.product-list{
+    height: 100%;
+    z-index: 999;
+    padding-left: 10px;
+    background: #fff;
+    padding-top: 10px;
+    border: 2px solid white;
+  }
+  
+  .product-list-content ul li a{
+    display: inline-block;
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .product-list-1{
+    /* height: 100%; */
+    z-index: 999;
+    /* padding-left: 10px; */
+    background: #fff;
+    /* padding-top: 10px; */
+    /* border: 2px solid white; */
+  }
+  
+  .product-list-content-1 ul li a{
+    display: inline-block;
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  
+.difficult{
+    margin-top: 30px;
+    margin-left: 200px;
+    
+}
+
+
+
+/* products */
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+} 
+/* .card-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #eef7f7;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing:grayscale;
+  backface-visibility:hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.card-container:hover{
+  transform: scale(1.05);
+}
+*/
+
+/* subcategory */
+
+.sub-menu-2{
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(118, 128, 125);
+}
+
+
+/* specific */
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: right;
+    align-items: right;
+
+}
+
+.popup-content{
+    height: 700px;
+    width: 750px;
+    background: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
+
+.first{
+    display:flex; 
+    list-style-type:none;
+    padding-left:0; 
+    padding-top: 10px;
+}
+
+.first1{
+    color:black; 
+    font-family: montserrat,sans-serif;
+    margin-top: -5px;
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+.second{
+    display: flex; 
+    list-style-type:none;
+    padding-left: 0;
+}
+
+.second2{
+    padding-left: 10px;
+}
+
+.third{
+    display:flex;
+    list-style-type: none;
+    padding-left:0; 
+    margin-bottom: 0; 
+    border-bottom: 1px solid lightgray;
+}
+
+.third1{
+    width:80px; 
+    height: 70px;
+    padding-left: 20px;
+}
+
+.third2{
+    padding-left:30px;
+    padding-top:0;
+    margin-top:0; 
+    margin-bottom:0
+}
+
+
+.fourth{
+    padding-left:110px; 
+    margin-top: -45px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.fifth{
+    background-color:whitesmoke; 
+    margin-left:20px;
+    margin-right:20px;
+    border-radius: 5px; 
+    padding-bottom: 15px;
+}
+
+.fifth1{
+    display:flex; 
+    list-style-type:none; 
+    margin-top:100px; 
+    padding-top:0; 
+    padding-left: 10px;
+     margin-bottom: 0;
+}
+
+
+.fifth2{
+    width: 50px; 
+    height:60px;
+    padding-left: 0px;
+    border: none;
+}
+
+.fifth3{
+    font-family: sans-serif; 
+    font-size:13px; 
+    padding-left:10px
+}
+
+.button1{
+    background-color:black; 
+    color:white;
+    margin-left: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top:-10px; 
+    font-weight: bolder;
+}
+
+.subtotal{
+    text-align: center; 
+    margin-bottom:0
+}
+
+.check{
+    color:grey; 
+    text-align:center; 
+    font-weight:lighter; 
+    margin-top:5px; 
+    margin-bottom:0
+}
+
+.button2{
+    background-color:green; 
+    color:white; 
+    margin-left: 20px; 
+    padding: 10px 120px 10px 120px;
+    border: 1px solid black; 
+    border-radius: 5px;
+}
+
+.img{
+    width:320px; 
+    margin-left: 20px;
+}
+
+.sixth{
+    display:flex; 
+    
+}
+
+.sixth1{
+    margin-top: 0; 
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.sixth2{
+    margin-left: -29px; 
+    margin-top:9px;
+}
+
+.sixth3{
+    margin-top:0; 
+    margin-bottom:0; 
+    margin-left:5px
+}
+
+.sixth4{
+    margin-top:20px; 
+    margin-bottom:0; 
+    margin-left: -55px;
+}
+
+.sixth5{
+    margin-top:5px
+}
+
+.list{
+    cursor: pointer;
+}
+
+.dis{
+  margin-left: 610px;
+}
+.editComment{
+    width: 75%;
+    border-radius: 0.3rem;
+    -webkit-user-modify: read-write;
+    -moz-user-modify: read-write;
+
+}
+
+.editComment{
+    outline: none;
+}
